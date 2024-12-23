@@ -1,1 +1,2 @@
 "This is deployment code for kubernetes"
+This code would be used by Flux to deploy to a kubernetes environment
