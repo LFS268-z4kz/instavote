@@ -18,3 +18,8 @@ replicas:
 - name: vote
   count: 4
 
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=FluxCD
+      - OPTION_B=ArgoCD
